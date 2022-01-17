@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(110deg, #000000 40%, #f52626 50%);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+.List{
+    color: white;
+}
+.styling{
+    animation-name: cool;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+}
+.all{
+    height: 2000px;
+    width: 100%;
+    box-sizing: border-box;
+}
+@keyframes cool{
+    0% {color: rgb(255, 0, 98)}
+    50% {color: rgb(255, 50, 228)}
+    100% {color: rgb(255, 0, 98)}
+}
+.boxoftasks{
+    width: 800px;
+    height: 1200px;
+    margin-left: 200px;
+    box-sizing: border-box;
+}
+.task{
+    background-color: white ;
+    width: 980px;
+    height: 70px;
+    margin-top: 20px;
+    margin-right: 150px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    text-shadow: black 0px 0.1px 0.1px, rgba(0, 0, 0, 0.23) 0px 0.1px 0.1px;
+}
+.smoltext{
+    margin: 25px;
+    font-weight: 50;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dificultyhigh{
+    background-color: red;
+    margin: 24px 24px 24px 0px;
+    padding: 5px;
+    border-radius: 40%;
+    color:seashell;
+    font-family: sans-serif;
+    text-size-adjust: 100%;
+}
+.dificultymedium{
+    background-color: rgba(255, 255, 1, 0.918);
+    margin: 24px 24px 24px 0px;
+    padding: 5px;
+    border-radius: 40%;
+    color:black;
+    font-family: sans-serif;
+    text-size-adjust: 100%;
+}
+.dificultylow{
+    background-color: cyan;
+    margin: 24px 24px 24px 0px;
+    padding: 5px;
+    border-radius: 40%;
+    color:white;
+    font-family: sans-serif;
+    text-size-adjust: 100%;
+}
+.boxofall{
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+    margin-left: 625px;
+}
+.both{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 100%;
+}
+.boxi{
+    width: 50px;
+    height: 100%;
+}
+.allorlist{
+    color: rgb(255, 0, 234);
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border: rgb(255, 255, 255);
+    border-style: groove;
+    border-radius: 4px;
+    border-width: 2px;
+}
+.imgthing{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    background-color: red;
+    color: red;
+}  
+.binbox{
+    position: absolute;
+    right: 190px;
+}
+.label {
+	display: inline;
+}
+
+.regular-checkbox {
+	display: none;
+}
+
+.regular-checkbox + label {
+	background-color: #ffffff;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 20%;
+	display: inline-block;
+    position: absolute;
+}
+
+.regular-checkbox + label:active, .regular-checkbox:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.regular-checkbox:checked + label {
+	background-color: #35cf20;
+	border: 1px solid #2ddd44;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #000000;
+}
+
+.regular-checkbox:checked + label:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: white;
+}
+.checkboxbox{
+    height: 100%;
+    width: 30px;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+.label, .regular-checkbox, .regular-checkbox:checked, .label, .label:after {
+    margin-top: 25px;
+    top: 20px;
+}
+.innercheck{
+    margin-top: 25px;
+}
+.Boxoflist{
+    width: 800px;
+    height: 22px;
+    margin-top: 30px;
+}
+.Listname{
+    animation-name: cool;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    font-weight: 100;
+    color:rgb(255, 0, 106);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 5px;
+}
+.addandthing{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.imgthing:hover{
+    background-color: red;
+}
+.add{
+    height: 1000px;
+    width: 400px;
+    text-align: right;
+}
+.task:hover{
+    cursor: pointer;
+    background-color: rgb(170, 170, 170);
+}
+.addvisual{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.addbutton{
+    border-radius: 50%;
+    color: transparent;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.addbutton:hover{
+    cursor: pointer;
+    background-color: rgb(182, 182, 182);
+
+}

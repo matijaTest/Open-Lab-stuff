@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+.bodys{
+    width: 1000px;
+    height: 1000px;
+}
+.wholelist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 50px;
+    position: absolute;
+    width: 420px;
+    height: 712px;
+    left: 510px;
+    top: 156px;
+    background: #23262C;
+    border-radius: 20px;
+}
+.toper{
+    width: 420px;
+    height: 228px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 40px 0px;
+}
+.downer{
+    width: 420px;
+    height: 484px;
+}
+.holdertop{
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 340px;
+    height: 188px;
+}
+.imgzes{
+    width: 60px;
+    height: 60px;
+}
+.imgbig{
+    width: 60px;
+    height: 60px;
+}
+.titleandshit{
+    display: flex;
+    flex-direction: row;
+    width: 340px;
+    height: 90px;
+}
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    width: 260px;
+    height: 36px;
+    color: #F4F6FA;
+    padding-left: 20px;
+}
+.vedlafoto{
+    display: flex;
+    flex-direction: column;
+}
+.smoltext{
+    width: 260px;
+    height: 18px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14,5px;
+    line-height: 18px;
+    color: #F4F6FA;
+    opacity: 0.5;
+    padding-left: 22px;
+}
